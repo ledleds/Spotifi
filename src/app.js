@@ -7,7 +7,6 @@ const querystring = require('querystring');
 const app = express();
 
 const redirect_uri = 'http://localhost:3004/authorized';
-// MOVE THESE TO ENV VARS
 const clientId = process.env.clientId;
 const clientSecret = process.env.clientSecret;
 

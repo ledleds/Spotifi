@@ -91,29 +91,12 @@ app.whenReady().then(() => {
   tray = new Tray('./assets/images/icon-dark.png');
 
   tray.on('click', () => {
-    // This is always undefined for some reason?????
-    // console.log('----->', process.env.accessToken)
     if (process.env.accessToken) {
       window.loadURL('http://localhost:3004/accepted');
     } else {
       login();
     }
   });
-
-  // const contextMenu = Menu.buildFromTemplate([
-  //   {
-  //     label: 'Login',
-  //     click() {
-  //       login()
-  //     }
-  //   },
-  //   {
-  //     label: 'Quit',
-  //     click() { app.quit(); }
-  //   }
-  // ])
-
-  // tray.setContextMenu(contextMenu)
 });
 
 // stop the app closing when all windows are closed
