@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' href='style.css' type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="container">
+    <img id="albumCover" src="<%= image.url %>" alt="Album artwork" />
+    <div id="text">
+      <p id="playing">Now Playing</p>
+      <p id="title"><%-title-%></p>
+      <p id="artist"><%-artists[0].name-%></p>
+    </div>
+  </div>
+</body>
+</html>
