@@ -1,0 +1,44 @@
+body {
+  background-color: #22272e;
+  font-family: 'Cabin', sans-serif;
+  color: white;
+}
+
+#container {
+  display: flex;
+}
+
+#title {
+  color: rgba(255, 255, 255, 0.982);
+  font-size: 18px;
+}
+
+#artist {
+  color: #979494;
+  font-size: 14px;
+}
+
+#playing {
+  font-size: 10px;
+}
+
+#text {
+  flex-direction: column;
+}
+
+#text p {
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+#albumCover {
+  margin-right: 8px;
+  height: 64px;
+  width: 64px;
+}
+
+#nothing-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
