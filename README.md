@@ -20,3 +20,7 @@ http://localhost:3004/accepted
 **clientId**: ID of your app in Spotify
 
 **clientSecret**: Secret for your app in Spotify
+
+## Running
+
+`npm start`
